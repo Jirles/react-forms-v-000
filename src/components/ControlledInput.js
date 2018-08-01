@@ -13,8 +13,8 @@ class ControlledInput extends React.Component {
   }
 
   handleSubmit = event => {
-    event.preventDefault()
-    this.sendFormDataSomewhere(this.state)
+    event.preventDefault();
+    this.sendFormDataSomewhere(this.state);
   }
 
   render() {
